@@ -1,0 +1,21 @@
+Nome tabella : Automobili Usate
+
+id - intero - SMALLMINT - PRIMARY KEY - AUTO_INCREMENT 
+marca - stringa - VARCHAR(30) - NOTNULL 
+modello - stringa - VARCHAR(50) - NOTNULL 
+colore - stringa - VARCHAR(30) - NULL 
+classe_ambientale_del_veicolo - stringa - VARCHAR(10) - NOTNULL 
+potenza_cavalli - intero - SMALLINT - NOTNULL 
+cilindrata - intero - SMALLINT - NOTNULL 
+paese_di_provenienza - stringa - VARCHAR(30) - NULL 
+immatricolazione - YEAR - NOTNULL 
+carburante - stringa - VARCHAR(20) - NULL 
+cambio - stringa - VARCHAR(15) - NULL 
+numero_portiere - intero - TINYINT - NULL 
+auto_incidentata - boolean - TINYINT(1) - NOTNULL 
+chilometraggio - intero - MEDIUMINT - NOTNULL 
+numero_proprietari - intero - TINYINT - DEFAULT(1) 
+ultima_revisione - DATE - NOTNULL 
+neo_patentati - boolean - TINYINT(1) - NULL 
+descrizione - stringa - TEXT - NULL 
+prezzo - float - FLOAT(8,2) - NOTNULL 
